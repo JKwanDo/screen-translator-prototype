@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Roman\\Desktop\\f\\screen-translator-prototype\\screen-translator-prototype\\screen-translator-prototype.csproj": {}
+    "c:\\Users\\Roman\\Desktop\\f\\screen-translator-prototype\\screen-translator-prototype\\screen-translator-prototype.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Roman\\Desktop\\f\\screen-translator-prototype\\screen-translator-prototype\\screen-translator-prototype.csproj": {
+    "c:\\Users\\Roman\\Desktop\\f\\screen-translator-prototype\\screen-translator-prototype\\screen-translator-prototype.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Roman\\Desktop\\f\\screen-translator-prototype\\screen-translator-prototype\\screen-translator-prototype.csproj",
+        "projectUniqueName": "c:\\Users\\Roman\\Desktop\\f\\screen-translator-prototype\\screen-translator-prototype\\screen-translator-prototype.csproj",
         "projectName": "screen-translator-prototype",
-        "projectPath": "C:\\Users\\Roman\\Desktop\\f\\screen-translator-prototype\\screen-translator-prototype\\screen-translator-prototype.csproj",
+        "projectPath": "c:\\Users\\Roman\\Desktop\\f\\screen-translator-prototype\\screen-translator-prototype\\screen-translator-prototype.csproj",
         "packagesPath": "C:\\Users\\Roman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Roman\\Desktop\\f\\screen-translator-prototype\\screen-translator-prototype\\obj\\",
+        "outputPath": "c:\\Users\\Roman\\Desktop\\f\\screen-translator-prototype\\screen-translator-prototype\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Roman\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -72,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
