@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "BGFILbJOX4c=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Roman\\Desktop\\f\\screen-translator-prototype\\screen-translator-prototype\\screen-translator-prototype.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Roman\\.nuget\\packages\\microsoft.win32.systemevents\\10.0.8\\microsoft.win32.systemevents.10.0.8.nupkg.sha512",
+    "C:\\Users\\Roman\\.nuget\\packages\\system.drawing.common\\10.0.8\\system.drawing.common.10.0.8.nupkg.sha512",
+    "C:\\Users\\Roman\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\Roman\\.nuget\\packages\\tesseract\\5.2.0\\tesseract.5.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
