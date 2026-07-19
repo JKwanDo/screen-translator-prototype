@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("screen-translator-prototype")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65630ab4d07cf43308dc659576d658386aec0e20")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8be8a85b88ab62532147160ca51f39126efbbf4")]
 [assembly: System.Reflection.AssemblyProductAttribute("screen-translator-prototype")]
 [assembly: System.Reflection.AssemblyTitleAttribute("screen-translator-prototype")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
