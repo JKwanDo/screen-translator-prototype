@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6SL9hbZfL+U=",
+  "dgSpecHash": "c/tPI6zZF1c=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Roman\\Desktop\\f\\screen-translator-prototype\\screen-translator-prototype\\screen-translator-prototype.csproj",
+  "projectFilePath": "D:\\dev\\screen-translator-prototype\\screen-translator-prototype\\screen-translator-prototype.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Roman\\.nuget\\packages\\bitmiracle.libtiff.net\\2.4.649\\bitmiracle.libtiff.net.2.4.649.nupkg.sha512",
     "C:\\Users\\Roman\\.nuget\\packages\\google.protobuf\\3.23.0\\google.protobuf.3.23.0.nupkg.sha512",
@@ -38,7 +38,8 @@
     "C:\\Users\\Roman\\.nuget\\packages\\system.security.permissions\\6.0.1\\system.security.permissions.6.0.1.nupkg.sha512",
     "C:\\Users\\Roman\\.nuget\\packages\\system.text.json\\6.0.11\\system.text.json.6.0.11.nupkg.sha512",
     "C:\\Users\\Roman\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\Roman\\.nuget\\packages\\tesseract\\5.2.0\\tesseract.5.2.0.nupkg.sha512"
+    "C:\\Users\\Roman\\.nuget\\packages\\tesseract\\5.2.0\\tesseract.5.2.0.nupkg.sha512",
+    "C:\\Users\\Roman\\.nuget\\packages\\tesseract.drawing\\5.2.0\\tesseract.drawing.5.2.0.nupkg.sha512"
   ],
   "logs": []
 }

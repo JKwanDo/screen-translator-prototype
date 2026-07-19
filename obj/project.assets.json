@@ -758,6 +758,19 @@
         "build": {
           "build/Tesseract.targets": {}
         }
+      },
+      "Tesseract.Drawing/5.2.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "6.0.0",
+          "Tesseract": "5.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Tesseract.Drawing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Tesseract.Drawing.dll": {}
+        }
       }
     }
   },
@@ -1726,13 +1739,26 @@
         "x86/leptonica-1.82.0.dll",
         "x86/tesseract50.dll"
       ]
+    },
+    "Tesseract.Drawing/5.2.0": {
+      "sha512": "ORuub0AagnAGPjdhO8qNxI6Z+2dXUmqWFy6qSjQ+Wr56SxQiV2jNvGM9Tpluvd7F5vwJeqXEWQnzFvGL6iHfjA==",
+      "type": "package",
+      "path": "tesseract.drawing/5.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Tesseract.Drawing.dll",
+        "tesseract.drawing.5.2.0.nupkg.sha512",
+        "tesseract.drawing.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "IronOCR >= 2026.5.2",
       "System.Drawing.Common >= 10.0.8",
-      "Tesseract >= 5.2.0"
+      "Tesseract >= 5.2.0",
+      "Tesseract.Drawing >= 5.2.0"
     ]
   },
   "packageFolders": {
@@ -1741,11 +1767,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Roman\\Desktop\\f\\screen-translator-prototype\\screen-translator-prototype\\screen-translator-prototype.csproj",
+      "projectUniqueName": "D:\\dev\\screen-translator-prototype\\screen-translator-prototype\\screen-translator-prototype.csproj",
       "projectName": "screen-translator-prototype",
-      "projectPath": "c:\\Users\\Roman\\Desktop\\f\\screen-translator-prototype\\screen-translator-prototype\\screen-translator-prototype.csproj",
+      "projectPath": "D:\\dev\\screen-translator-prototype\\screen-translator-prototype\\screen-translator-prototype.csproj",
       "packagesPath": "C:\\Users\\Roman\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Roman\\Desktop\\f\\screen-translator-prototype\\screen-translator-prototype\\obj\\",
+      "outputPath": "D:\\dev\\screen-translator-prototype\\screen-translator-prototype\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Roman\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1771,8 +1797,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -1787,6 +1812,10 @@
             "version": "[10.0.8, )"
           },
           "Tesseract": {
+            "target": "Package",
+            "version": "[5.2.0, )"
+          },
+          "Tesseract.Drawing": {
             "target": "Package",
             "version": "[5.2.0, )"
           }
@@ -1807,7 +1836,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
