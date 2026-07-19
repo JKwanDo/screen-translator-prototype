@@ -1741,11 +1741,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Roman\\Desktop\\f\\screen-translator-prototype\\screen-translator-prototype\\screen-translator-prototype.csproj",
+      "projectUniqueName": "D:\\dev\\screen-translator-prototype\\screen-translator-prototype\\screen-translator-prototype.csproj",
       "projectName": "screen-translator-prototype",
-      "projectPath": "c:\\Users\\Roman\\Desktop\\f\\screen-translator-prototype\\screen-translator-prototype\\screen-translator-prototype.csproj",
+      "projectPath": "D:\\dev\\screen-translator-prototype\\screen-translator-prototype\\screen-translator-prototype.csproj",
       "packagesPath": "C:\\Users\\Roman\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Roman\\Desktop\\f\\screen-translator-prototype\\screen-translator-prototype\\obj\\",
+      "outputPath": "D:\\dev\\screen-translator-prototype\\screen-translator-prototype\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Roman\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -19,17 +19,6 @@ while (true)
     {
         using (Graphics g = Graphics.FromImage(bitmap))
         {
-            g.CopyFromScreen(bounds.X, bounds.Y, 0, 0, bounds.Size);
-            for (int y = 0; y < bitmap.Height; y++)
-            {
-                for (int x = 0; x < bitmap.Width; x++)
-                {
-                    Color originalColor = bitmap.GetPixel(x, y);
-                    int grayValue = (int)(originalColor.R * 0.3 + originalColor.G * 0.59 + originalColor.B * 0.11);
-                    Color grayColor = Color.FromArgb(originalColor.A, grayValue, grayValue, grayValue);
-                    bitmap.SetPixel(x, y, grayColor);
-                }
-            }
         }
         // 0.5 fps screenCapture loop
         int elapsedTimeMs = (int)timer.ElapsedMilliseconds;
